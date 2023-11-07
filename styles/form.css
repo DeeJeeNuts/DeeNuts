@@ -1,0 +1,51 @@
+body {
+    margin:0;
+}
+.rootContainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(250, 250, 250);
+    margin: 0;
+    align-items: center;
+    justify-content:center;
+} 
+.loginContainer{
+    width: 40%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(209, 209, 209);
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.username{
+    width: 80%;
+    height: 40px;
+    background-color:rgb(119, 204, 219);
+    font-size: 16pt;
+    text-align: center;
+}
+.password{
+    width:80%;
+    height:40px;
+    background-color:rgb(119, 204, 219);
+    font-size: 16pt;
+    text-align: center;}
+.login{
+    width:80%;
+    height:30px;
+    background-color:rgb(87, 216, 141);
+    font-size: 16pt;
+    text-align: center;}
+
+
+.linkContainer {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
